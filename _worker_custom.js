@@ -6,6 +6,7 @@ const listProxy = [
     { path: '/gcp', proxy: '34.34.217.201' },
     { path: '/do', proxy: '188.166.255.195' },
     { path: '/do2', proxy: '143.198.213.197' },
+    { path: '/sg', proxy: '8.213.137.24' },
     { path: '/incapsula', proxy: '45.60.186.91' },
     { path: '/ovh', proxy: '15.235.162.49' },
     { path: '/upc', proxy: '165.154.48.233' },
