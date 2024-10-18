@@ -1,17 +1,9 @@
 import { connect } from 'cloudflare:sockets';
 const listProxy = [
-    { path: '/akamai', proxy: '172.232.238.169' },
-    { path: '/kr', proxy: '52.141.25.42'},
-    { path: '/us', proxy: '91.186.208.191'},
     { path: '/gcp', proxy: '34.34.217.201' },
     { path: '/do', proxy: '188.166.255.195' },
     { path: '/do2', proxy: '143.198.213.197' },
-    { path: '/sg', proxy: '8.213.137.24' },
-    { path: '/incapsula', proxy: '45.60.186.91' },
-    { path: '/ovh', proxy: '15.235.162.49' },
     { path: '/upc', proxy: '165.154.48.233' },
-    { path: '/orc', proxy: '150.230.42.80' },
-    { path: '/us2', proxy: '150.136.61.148' },
     { path: '/ctn', proxy: '103.133.223.50' },
     { path: '/ctn', proxy: '103.133.223.51' },
     { path: '/ctn', proxy: '103.133.223.52' },
