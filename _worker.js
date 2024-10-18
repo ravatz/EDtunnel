@@ -1,12 +1,11 @@
 import { connect } from 'cloudflare:sockets';
 const listProxy = [
     { path: '/gcp', proxy: '34.34.217.201' },
+    { path: '/gcp', proxy: '35.219.15.90' },
+    { path: '/gcp', proxy: '35.219.50.99' },
+    { path: '/rw', proxy: '203.194.112.119' },
     { path: '/do', proxy: '188.166.255.195' },
     { path: '/do2', proxy: '143.198.213.197' },
-    { path: '/upc', proxy: '165.154.48.233' },
-    { path: '/ctn', proxy: '103.133.223.50' },
-    { path: '/ctn', proxy: '103.133.223.51' },
-    { path: '/ctn', proxy: '103.133.223.52' },
 ];
 let proxyIP;
 export default {
