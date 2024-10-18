@@ -12,7 +12,9 @@ const listProxy = [
     { path: '/upc', proxy: '165.154.48.233' },
     { path: '/orc', proxy: '150.230.42.80' },
     { path: '/us2', proxy: '150.136.61.148' },
-    { path: '/ctn', proxy: '103.133.223.50', '103.133.223.51', '103.133.223.52' },
+    { path: '/ctn', proxy: '103.133.223.50' },
+    { path: '/ctn', proxy: '103.133.223.51' },
+    { path: '/ctn', proxy: '103.133.223.52' },
 ];
 let proxyIP;
 export default {
