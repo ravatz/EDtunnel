@@ -1,8 +1,8 @@
 import { connect } from 'cloudflare:sockets';
 const listProxy = [
     { path: '/gcp', proxy: '34.34.217.201' },
-    { path: '/gcp', proxy: '35.219.15.90' },
-    { path: '/gcp', proxy: '35.219.50.99' },
+    { path: '/gcp2', proxy: '35.219.15.90' },
+    { path: '/gcp3', proxy: '35.219.50.99' },
     { path: '/rw', proxy: '203.194.112.119' },
     { path: '/do', proxy: '188.166.255.195' },
     { path: '/do2', proxy: '143.198.213.197' },
