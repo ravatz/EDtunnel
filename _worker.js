@@ -7,7 +7,7 @@ const listProxy = [
     { path: '/gcp2', proxy: '35.219.15.90' },
     { path: '/gcp3', proxy: '35.219.50.99' },
     { path: '/rw', proxy: '203.194.112.119' },
-    { path: '/pmi', proxy: '103.6.207.108' }
+    
 ];
 let proxyIP;
 export default {
